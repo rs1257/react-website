@@ -1,0 +1,36 @@
+.TitleBar {
+  text-align: center;
+}
+
+.TitleBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #282c34;
+}
+
+.TitleBar li {
+  float: left;
+}
+
+.TitleBar a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  color: #4285f4;
+  font-weight: bold;
+}
+
+.active { 
+  border-bottom:3px solid #4285f4;
+}
+
+a:hover {
+  background: #9B59B6;
+  border-bottom:3px solid #4285f4;
+}
+

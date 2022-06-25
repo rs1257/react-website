@@ -1,0 +1,34 @@
+.WeatherTile {
+    border: 2px solid #4285f4;
+    background: #282c34;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Location {
+    font-size: 40px;
+    color: #4285f4;
+}
+
+.Temperature {
+    font-size: 75px;
+    color: #4285f4;
+}
+
+.Weather {
+    font-size: 30px;
+    color: #4285f4;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #4285f4;
+    margin: 0;
+    padding: 0; 
+}
